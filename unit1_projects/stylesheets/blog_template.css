@@ -57,6 +57,19 @@ img {
   padding-top:2em;
 }
 
+#content h2 {
+  border: 1px solid;
+  width: 75px;
+  text-align: center;
+}
+
+#content h3 {
+  border: 5px solid red;
+  width: 46px;
+  text-align: center
+}
+
+
 #content img {
   width: 250px;
   padding-left: 0;

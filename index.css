@@ -1,0 +1,269 @@
+body {
+	margin: 0;
+	border-bottom: 1em solid orange;
+}
+
+.videohome {
+	position: relative;
+	height: 697.5px;
+	width: 100%;
+}
+
+.videohome video {
+	position: relative;
+	z-index: 0;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin-left: 1em;
+	margin-top: 20em;
+}
+
+.overlay h1 {
+	color: white;
+	font-size: 3em;
+	margin-bottom: 0;
+	font-family: 'Droid Serif', serif;
+}
+
+.overlay h3 {
+	color: white;
+	font-size: 3em;
+	margin-top: 0;
+	font-family: 'Droid Serif', serif;
+
+}
+
+.overlay nav ul {
+	padding-left: .30em;
+	position:fixed;
+	background-color: orange;
+}
+
+.overlay nav ul li {
+	display: inline;
+
+}
+.overlay nav ul li a {
+	text-decoration: none;
+	color: white;
+	margin-right: 0.70em;
+}
+
+.overlay nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+section .AboutMe_left {
+	width: 50%;
+	height: 633px;
+	float: left;
+	background-color: black;
+	border-top: 2em solid orange;
+}
+
+section .AboutMe_left h2 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+
+}
+
+section .AboutMe_Right {
+	width:50%;
+	float: right;
+	height: 633px;
+	background-color: white;
+	border-top: 2em solid orange;
+	
+	
+}
+
+section .AboutMe_Right h3 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 6em;
+}
+
+section #Technical_Blog  {
+	clear :both;
+	
+}
+
+section .TechnicalBlog_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: white;
+	border-top: 2em solid orange;
+}
+
+section .TechnicalBlog_left h2 {
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .TechnicalBlog_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: black;
+	border-top: 2em solid orange;
+	
+}
+
+section .TechnicalBlog_right ul li a {
+    
+    color: white;
+    font-size: 1em;
+    margin-top: 2em;
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    margin-left: 7em;
+
+}
+
+section #CulturalBlog {
+	clear: both;
+}
+
+section .CulturalBlog_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: black;
+	border-top: 2em solid orange;
+}
+
+section .CulturalBlog_left h2 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .CulturalBlog_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: white;
+	border-top: 2em solid orange;
+	
+}
+
+section .CulturalBlog_right a {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 3em;
+	position: absolute;
+	margin-left: 7em
+}
+
+
+section #OtherProjects {
+	clear: both;
+}
+
+section .OtherProjects_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: white;
+	border-top: 2em solid orange;
+}
+
+section .OtherProjects_left h2 {
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .OtherProjects_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: black;
+	border-top: 2em solid orange;
+	
+}
+
+section #Personal_Blog {
+	clear: both;
+}
+
+section .PersonalBlog_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: black;
+	border-top: 2em solid orange;
+}
+
+section .PersonalBlog_left h2 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .PersonalBlog_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: white;
+	border-top: 2em solid orange;
+	
+}
+
+section .PersonalBlog_right h3{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 6em;
+}
+
+ section #Contact_Me {
+ 	clear: both;
+ }
+
+ section .ContactMe_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: white;
+	border-top: 2em solid orange;
+}
+
+section .ContactMe_left h2 {
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .ContactMe_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: black;
+	border-top: 2em solid orange;
+
+}
+
+footer {
+	clear: both;
+	background-color: orange;
+	padding-bottom: 0;
+}
+
+footer h1 {
+	float: right;
+	position: relative;
+	margin-bottom: 1em;
+	padding-right:3em;
+}
+

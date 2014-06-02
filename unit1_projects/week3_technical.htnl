@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type ="text/css" href="stylesheets/blog_template.css"> 
+  <title>Widny's Technical Blog</title>
+  </head>
+ <body>
+
+ <div id ="header">
+
+ 	<h1>Widny's Technical Blog</h1>
+
+ </div>
+  <div id="nav">
+      <ul>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Contact</li>
+        
+      </ul>
+ </div>
+
+ <div id= "content">
+
+  <h1>Week 3</h1>
+
+
+	<p>JavaScript is one of the most popular programming language used to create a dynamic and interactive website across platform. There Are several factors contributing  to its arguably growing popularity:</p>
+<ul>
+	<li>It's easy to debug JavaScript using a browsing console.</li>
+    <li>Javascript is relatively an easy language to learn.</li> 
+	<li>Javascript is relatively fast to the end user. As the code is executed on the user’s computer, results and processing is completed almost instantly depending not he task.</li> 
+	<li>Javascript has become a lot more popular because enterprise based companies are incorporating Javascrip in their browsers.<li>
+</ul>
+
+<p>The main disadvantage if Javascript is it’s very vulnerable security and also different browsers read Javascript differently, especially on the user end.</p>
+
+ </div>
+   <div id="footer">
+     <a href="mailto:widnystlouis1@gmail.com">My email</a> 
+   </div>
+   </body>
+
+   </html> 

@@ -118,11 +118,11 @@ section .TechnicalBlog_right {
 	
 }
 
-section .TechnicalBlog_right ul li a {
+section .TechnicalBlog_right ul li a{
     
     color: white;
     font-size: 1em;
-    margin-top: 2em;
+    margin-top: 5em;
     font-family: 'Droid Serif', serif;
     text-align: center;
     margin-left: 7em;
@@ -157,12 +157,13 @@ section .CulturalBlog_right {
 	
 }
 
-section .CulturalBlog_right a {
-	font-size: 2em;
+section .CulturalBlog_right ul li a {
+	font-size: 1em;
 	text-align: center;
 	margin-top: 3em;
-	position: absolute;
-	margin-left: 7em
+	margin-left: 7em;
+	font-family: 'Droid Serif', serif;
+	list-style-position: none;
 }
 
 

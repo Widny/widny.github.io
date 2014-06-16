@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type ="text/css" href="stylesheets/blog_template.css"> 
+  <title>Widny's Technical Blog</title>
+  </head>
+  <body>
+  <div id ="header">
+
+ <h1>Widny's Technical Blog</h1>
+
+</div>
+  <div id="nav">
+      <ul>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Contact</li>
+        
+      </ul>
+ </div>
+ 
+<img src=http://4.bp.blogspot.com/-121N0L5IdA4/UJq-3XHuuAI/AAAAAAAAAwM/o1jA-2Zy0-g/s200/css_is_awesome.gif></img>   
+
+<div id= "content">
+
+  <h1>Week 4</h1>
+
+  <p>If you want to understand the difference between margins, padding, and borders. look no furthan than the box model to understand the concept. Please see exaple below.</p>
+
+   <img src= "http://doc.qt.digia.com/qq/qq20-boxmodel.png">
+
+  <p>Sometimes in a web application or software program, you need to have one specific action repeat itself so that either you or the customer can receive the desired output. This is achieved through something called looping.</p>
+
+
+  <p>There are various ways in which you can program a computer to loop. Although some of them may sound like they do somewhat the same thing they each are used for their own specific purpose. which i will explain below.</p>
+
+  <h3> The "while" loop </h3>  
+  
+  <p>The <em>while loop</em>will prompt the application to repeat a specific action while certain conditions are still true. While the condition remains true, the loop keeps running until the condition is no longer true. When this occurs, the loop stops repeating that specific action. An example is a student taking a multiple choice practice exam.</p>
+
+  <h4>i = 75<br>
+      while i > 75<br>
+      puts “You may move on to next session."</h4>
+
+  <h3>“Until" Loop</h3>
+
+  <p>The until loop keeps looping when the condition remains true, the until method continues looping until a specific condition change. Using the real life  example from above, until the test taker makes over 80 on this section, they cannot move on to next section.</p>
+
+  <h4>i = 75<br>
+      until i >75<br>
+      puts “You need to review this section”</h4>
+
+  <h3>"For" Loop</h3>
+
+  <p>The for method are typically used when you know how many times you’ll be looping. The “for “ loop is rarely used by ruby programmers. however, it does have a minor use. The “for” method acts just like the each method of enumerable objects. For example</p>
+
+  <p>each method</p>
+
+  <h4>(1..10).each do | i |<br>
+          puts I <br>
+     end</h4>
+
+  <p>the "for” loop looks like:</p>
+
+  <h4>for i in 1..10<br>
+          puts <br>
+     end</h4>
+
+  <h3>Loop method</h3>
+
+  <p>This is the most simplest looping in Ruby. This loop can infinitely print out whatever you tell it .For example:<p>
+
+  <p>Infinite Loop:</p>
+
+  <h4>i = 0<br>
+      loop do <br>
+          i +=1<br>
+          print “#{i} “<br>
+     end</h4>
+
+  <p>However, you can exit an infinite loop at any point by putting key words like “break”</p>
+
+  <h4>i = 0<br>
+      loop do<br> 
+          i +=1<br>
+          print “#{i} “<br>
+          break if  i==10<br>
+     end </h4>
+
+  <p>That are all the various ways you can loop over stuff on Ruby.</p>
+
+
+
+  </div>
+   <div id="footer">
+     <a href="mailto:widnystlouis1@gmail.com">My email</a> 
+   </div>
+ </body>
+
+   </html>

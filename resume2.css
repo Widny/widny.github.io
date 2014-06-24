@@ -1,0 +1,321 @@
+body {
+	margin: 0;
+	border-bottom: 1em solid orange;
+}
+
+.videohome {
+	position: relative;
+	height: 697.5px;
+	width: 100%;
+}
+
+.videohome video {
+	position: relative;
+	z-index: 0;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin-left: 1em;
+	margin-top: 20em;
+}
+
+.overlay h1 {
+	color: white;
+	font-size: 3em;
+	margin-bottom: 0;
+	font-family: 'Droid Serif', serif;
+}
+
+.overlay h3 {
+	color: white;
+	font-size: 1.75em;
+	margin-top: 0;
+	font-family: 'Droid Serif', serif;
+	padding-left: 0
+
+}
+
+.overlay h3 ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.overlay nav ul {
+	padding-left: .30em;
+}
+
+.overlay nav ul li {
+	display: inline;
+
+}
+.overlay nav ul li a {
+	text-decoration: none;
+	color: orange;
+	margin-right: 0.70em;
+	font-size: 20px;
+	font-family: 'Droid Serif', serif;
+}
+
+.overlay nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+section .Summary_left {
+	width: 50%;
+	height: 633px;
+	float: left;
+	background-color: black;
+	border-top: 2em solid orange;
+}
+
+section .Summary_left h2 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+
+}
+
+section .Summary_Right {
+	width:50%;
+	float: right;
+	height: 633px;
+	background-color: white;
+	border-top: 2em solid orange;	
+	
+}
+
+section .Summary_Right .content {
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+section .Summary_Right .content p{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+section #Professional_Experience  {
+	clear :both;
+	
+}
+
+section .Professional_Experience_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: white;
+	border-top: 2em solid orange;
+}
+
+section .Professional_Experience_left h2 {
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .Professional_Experience_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: black;
+	border-top: 2em solid orange;
+	
+}
+
+section .Professional_Experience_right .content {
+	color: white;
+}
+
+section .Professional_Experience_right .content .Scrollable {
+	height: 620px;
+  	overflow: auto;
+}
+
+section .Professional_Experience_right h6{
+    
+    color: white;
+    font-size: 1em;
+    margin-top: 2em;
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    margin-left: 5em;
+    margin-left: 25px;
+
+}
+
+section .Professional_Experience_right p {
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+section #Education {
+	clear: both;
+}
+
+section .Education_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: black;
+	border-top: 2em solid orange;
+}
+
+section .Education_left h2 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .Education_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: white;
+	border-top: 2em solid orange;
+	
+}
+
+section .Education_right h3 {
+	margin-top: 7em;
+	text-align: center;
+	font-size: 30px;
+}
+
+section .Education_right h4 {
+	text-align: center;
+	font-size: 25px;
+}
+
+section .CulturalBlog_right h5 {
+	font-size: 1em;
+	text-align: center;
+	margin-top: 3em;
+	margin-left: 7em;
+	font-family: 'Droid Serif', serif;
+	list-style-position: none;
+}
+
+
+section #Technical_Skills {
+	clear: both;
+}
+
+section .Technical_Skills_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: white;
+	border-top: 2em solid orange;
+}
+
+section .Technical_Skills_left h2 {
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .Technical_Skills_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: black;
+	border-top: 2em solid orange;
+	
+}
+
+section .Technical_Skills_right ul li {
+	text-align: center;
+	font-size: 33px;
+	color: white;
+	list-style-type: none;
+
+
+}
+
+section .Technical_Skills_right ul {
+	text-align: center;
+	margin-top: 12em;
+	margin-right: 25px;
+}
+
+section #Personal_Blog {
+	clear: both;
+}
+
+section .PersonalBlog_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: black;
+	border-top: 2em solid orange;
+}
+
+section .PersonalBlog_left h2 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .PersonalBlog_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: white;
+	border-top: 2em solid orange;
+	
+}
+
+section .PersonalBlog_right h3{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 6em;
+}
+
+ section #Contact_Me {
+ 	clear: both;
+ }
+
+ section .ContactMe_left {
+	width: 50%;
+	height:633px;
+	float: left;
+	background-color: white;
+	border-top: 2em solid orange;
+}
+
+section .ContactMe_left h2 {
+	text-align: center;
+	font-size: 3em;
+	margin-top:5em;
+}
+
+section .ContactMe_right {
+	width: 50%;
+	height: 633px;
+	float: right;
+	background-color: black;
+	border-top: 2em solid orange;
+
+}
+
+footer {
+	clear: both;
+	background-color: orange;
+	padding-bottom: 0;
+}
+
+footer h1 {
+	float: right;
+	position: relative;
+	margin-bottom: 1em;
+	padding-right:3em;
+}

@@ -34,13 +34,23 @@ body {
 	font-size: 1.75em;
 	margin-top: 0;
 	font-family: 'Droid Serif', serif;
-	padding-left: 0
+	padding-left: 0;
+	text-decoration: none;
 
 }
 
 .overlay h3 ul{
 	list-style-type: none;
 	padding-left: 0;
+	text-decoration: none;
+}
+
+.overlay h3 ul li a {
+	text-decoration: none;
+}
+
+.overlay h3 ul li a:visited {
+	color: white;
 }
 
 .overlay nav ul {

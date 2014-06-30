@@ -323,8 +323,8 @@ footer {
 	padding-bottom: 0;
 }
 
-footer h1 {
-	float: right;
+footer h3 {
+	text-align: center;
 	position: relative;
 	margin-bottom: 1em;
 	padding-right:3em;

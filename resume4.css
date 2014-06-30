@@ -256,11 +256,11 @@ section .Technical_Skills_right ul {
 	margin-right: 25px;
 }
 
-section #Personal_Blog {
+section #Recent_Projects {
 	clear: both;
 }
 
-section .PersonalBlog_left {
+section .RecentProjects_left {
 	width: 50%;
 	height:633px;
 	float: left;
@@ -268,14 +268,14 @@ section .PersonalBlog_left {
 	border-top: 2em solid orange;
 }
 
-section .PersonalBlog_left h2 {
+section .RecentProjects_left h2 {
 	color: white;
 	text-align: center;
 	font-size: 3em;
 	margin-top:5em;
 }
 
-section .PersonalBlog_right {
+section .RecentProjects_right {
 	width: 50%;
 	height: 633px;
 	float: right;
@@ -284,38 +284,12 @@ section .PersonalBlog_right {
 	
 }
 
-section .PersonalBlog_right h3{
+section .RecentProjects_right h3{
     text-align: center;
     font-size: 2.5em;
     margin-top: 6em;
 }
 
- section #Contact_Me {
- 	clear: both;
- }
-
- section .ContactMe_left {
-	width: 50%;
-	height:633px;
-	float: left;
-	background-color: white;
-	border-top: 2em solid orange;
-}
-
-section .ContactMe_left h2 {
-	text-align: center;
-	font-size: 3em;
-	margin-top:5em;
-}
-
-section .ContactMe_right {
-	width: 50%;
-	height: 633px;
-	float: right;
-	background-color: black;
-	border-top: 2em solid orange;
-
-}
 
 footer {
 	clear: both;
